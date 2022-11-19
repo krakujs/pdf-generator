@@ -89,19 +89,11 @@ class _MyHomePageState extends State<MyHomePage> {
     header.cells[2].value = 'Course';
 
     PdfGridRow row = grid.rows.add();
-    row.cells[0].value = '06';
-    row.cells[1].value = 'Anirudh';
+    row.cells[0].value = '58';
+    row.cells[1].value = 'Ujjwal Solanki';
     row.cells[2].value = 'BTECH';
 
-    row = grid.rows.add();
-    row.cells[0].value = '11';
-    row.cells[1].value = 'Arpit';
-    row.cells[2].value = 'B.Des';
 
-    row = grid.rows.add();
-    row.cells[0].value = '65';
-    row.cells[1].value = 'Yesh';
-    row.cells[2].value = 'BTECH';
 
     grid.draw(
         page: document.pages.add(), bounds: const Rect.fromLTWH(0, 0, 0, 0));
